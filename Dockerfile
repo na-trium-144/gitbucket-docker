@@ -1,4 +1,4 @@
-FROM adoptopenjdk:8-jre-hotspot
+FROM arm32v7/eclipse-temurin:8-jre
 
 LABEL maintainer="Naoki Takezoe <takezoe [at] gmail.com>"
 
