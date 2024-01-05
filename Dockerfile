@@ -2,7 +2,7 @@ FROM arm32v7/eclipse-temurin:8-jre
 
 LABEL maintainer="Naoki Takezoe <takezoe [at] gmail.com>"
 
-ADD https://github.com/gitbucket/gitbucket/releases/download/4.38.4/gitbucket.war /opt/gitbucket.war
+ADD https://github.com/gitbucket/gitbucket/releases/download/4.39.0/gitbucket.war /opt/gitbucket.war
 
 RUN ln -s /gitbucket /root/.gitbucket
 
